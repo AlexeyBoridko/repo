@@ -16,3 +16,6 @@ class Choice(models.Model):
     votes = models.IntegerField()
     def __str__(self):
         return self.choice
+
+class Test(models.Model):
+    field1 = models.NullBooleanField()
